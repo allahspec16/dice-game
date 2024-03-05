@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="dice.css">
+  <script src="dice.js"defer></script>
+  <title>My Dice</title>
+</head>
+<body>
+  <header>
+    <h1>Nana's <img src="./images/vecteezy_game-tool-purple-dice_22034131.png" class="purple"> Dice </h1>
+  </header>
+  <main>
+    <section class="section">
+      <div class="section--container">
+        <div class="input">
+          <form>
+            Input Player Name:
+            <input type= "text" id="firstname" name="firstname">
+            <input type = "button" onclick="showName()" value="submit" class="submit">
+            <span id="show"></span>
+        </form>
+        </div>
+        <div class="ludo-flex dice">
+          <img src="images/dice6.png" class="blue">
+          <span class="text"></span>
+          <img src="images/dice6.png" class="pink">
+        </div>
+        <button class="spin" type="button">SPIN</button>
+        <p class="result"></p>
+        <h3 class="Zainab"><p class="name"></p> scores:<p class="z-score"></p></h3>
+        <h3 class="Nana">Nana scores:<p class="n-score"></p></h3>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <attribution>
+      coded by: <a href="#">Allahspec</a>
+    </attribution>    
+  </footer>
+</body>
+</html>
+

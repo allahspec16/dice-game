@@ -1,0 +1,118 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  height: 65vh;
+  background-color: lightpink;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.text{
+  font-size: 2rem;
+  color: blue;
+  font-weight: 900;
+}
+.purple{
+  width: 5rem;
+}
+.ludo-flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5rem 0 0 0;
+}
+.blue, .pink{
+  width: 20rem;
+}
+.dice{
+  transition: transorm 0.5s ease;
+  cursor: pointer;
+}
+button{
+  background-image: url('./LUDO/images/vecteezy_elementos-de-diseno-3d-de-oro-negro-de-casino_8854546.png');
+  background-repeat: repeat;
+  background-size: contain;
+  border: none;
+  display: flex;
+  background-color: purple;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-weight: 900;
+  color: white;
+  max-width: 80rem;
+  margin: 0 auto;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.submit{
+  border: none;
+  background-color: purple;
+  font-weight: 900;
+  color: white;
+  cursor: pointer;
+}
+form{
+  font-weight: 900;
+  color: rgb(63, 7, 63);
+  font-size: 2.2rem;
+  margin: 2rem 0;
+}
+input{
+  outline: none;
+  padding: 1rem 2rem;
+}
+.result{
+  color: rgb(247, 15, 92);
+  padding: 3rem 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+}
+h3{
+  padding: 0 2rem;
+}
+.n-score, .z-score, .name{
+  color: black;
+  display: inline;
+}
+.Zainab, .Nana, .name{
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: rgb(63, 7, 63);
+}
+footer{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(63, 7, 63);
+  margin: 4rem 0;
+}
+a, a:link{
+  text-decoration: none;
+  color: rgb(90, 27, 48);
+  font-weight: 900;
+}
+
+@keyframes rotate{
+  0%{ transform: rotate(0deg); }
+  /* 25%{ transform: rotate(180deg); } */
+  /* 50%{ transform: rotate(360deg); } */
+  /* 75%{ transform: rotate(540deg); } */
+ 100%{ transform: rotate(720deg); }
+  
+}
+.rotate{
+  animation: rotate 1s ease-out;
+}
